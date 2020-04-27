@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearTitulo"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorVerdeOsc"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="My Profile" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/foto1"/>        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/LinearTexto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorVerdeOsc"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Anna Alvarado" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guildhall School of Music y Drama"
+            android:textColor="@color/colorGrisClaro"
+            android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="London, UK"
+            android:textColor="@color/colorGrisClaro"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearTexto2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textAlignment="center"
+            android:textColor="@color/colorGrisClaro"
+            android:textStyle="bold"
+            android:text="Photos" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textAlignment="center"
+            android:textColor="@color/colorGrisClaro"
+            android:textStyle="bold"
+            android:text="Followers" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:textAlignment="center"
+            android:textColor="@color/colorGrisClaro"
+            android:textStyle="bold"
+            android:text="Follows" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearTexto3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textAlignment="center"
+            android:textColor="@color/colorVerdeOsc"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="456" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textAlignment="center"
+            android:textColor="@color/colorVerdeOsc"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="602" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:textAlignment="center"
+            android:textColor="@color/colorVerdeOsc"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="290" />
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/LinearImg2"
+        android:layout_width="match_parent"
+        android:layout_height="283dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorGris"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:src="@drawable/foto2" />
+
+
+        <LinearLayout
+            android:id="@+id/LinearImg3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="50"
+                android:src="@drawable/foto3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="50"
+                android:src="@drawable/foto4" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
